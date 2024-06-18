@@ -1,0 +1,15 @@
+.pokedex-wrapper{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: rgba(244,32,54,50%);
+}
+
+#pokemon-name{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 800;
+    padding: 10px 0;
+}

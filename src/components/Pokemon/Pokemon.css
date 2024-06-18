@@ -1,0 +1,20 @@
+.pokemon-wrapper{
+    width: 100%;
+    flex-basis: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+    
+}
+.pokemon-wrapper:hover{
+    cursor: pointer;
+    background-color:rgba(244,32,53,20%);
+}
+.pokemon-wrapper img{
+    width: 150px;
+    height:100px;
+}

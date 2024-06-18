@@ -1,0 +1,9 @@
+.search-wrapper{
+    width: 100%;
+    display: flex;
+}
+.search-wrapper input{
+    width: 50%;
+    margin:0 auto;
+    padding: 15px 20px;
+}

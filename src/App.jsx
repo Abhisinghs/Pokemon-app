@@ -1,7 +1,8 @@
 import "./App.css";
+import Pokedex from "./components/Pokedex/Pokedex";
 
 function App() {
-  return <div className="container"></div>;
+  return <Pokedex />;
 }
 
 export default App;

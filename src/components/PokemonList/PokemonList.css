@@ -1,14 +1,32 @@
 .pokemonList-wrapper{
-    width: 90%;
-    margin: 10px auto;
+    width: 100%;
+    margin-top: 20px;
+
+
 }
 
-.sub-wrapper{
+.pokemon-list{
+    width: 98%;
+    margin: 0 auto;
     display: flex;
-    padding: 10px;
-    flex-wrap: wrap;
-    gap:50px
+     flex-wrap: wrap;
 }
- li{
-    text-decoration: none;
+#buttons {
+    width: 100%;
+   display: flex;
+   padding: 20px 0;
+   justify-content: center;
+   gap: 100px;
+}
+
+#buttons button{
+    padding: 10px 20px ;
+    border-radius: 10px;
+    font-size: 1.2em;
+    border: none;
+}
+
+#buttons button:hover{
+    cursor:pointer;
+    background-color: rgb(197, 221, 242);
 }
