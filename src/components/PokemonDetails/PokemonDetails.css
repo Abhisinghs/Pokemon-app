@@ -1,0 +1,31 @@
+.pokemon{
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color:rgba(244,32,53,50%);
+}
+.pokemon h1{
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.pokemon h3{
+    background-color: white;
+    color: black;
+    width: 400px;
+    height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    border-radius: 10px;
+}
+.pokemon img{
+    width: 200px;
+    height: 200px;
+}

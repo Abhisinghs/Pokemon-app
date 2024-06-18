@@ -1,8 +1,8 @@
 import "./App.css";
-import Pokedex from "./components/Pokedex/Pokedex";
+import CustomRoutes from "./CustomRoutes/CustomRoutes";
 
 function App() {
-  return <Pokedex />;
+  return <CustomRoutes />;
 }
 
 export default App;

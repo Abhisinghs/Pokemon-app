@@ -43,7 +43,12 @@ function PokemonList() {
         {isLoading
           ? "Loading"
           : pokemonList.map((poke) => (
-              <Pokemon name={poke.name} image={poke.image} />
+              <Pokemon
+                name={poke.name}
+                key={poke.id}
+                id={poke.id}
+                image={poke.image}
+              />
             ))}
       </div>
       <div id="buttons">

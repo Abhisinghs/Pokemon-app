@@ -1,10 +1,13 @@
+import { Link } from "react-router-dom";
 import "./Pokemon.css";
 
-function Pokemon({ name, image }) {
+function Pokemon({ id, name, image }) {
   return (
     <div className="pokemon-wrapper">
       <h3>{name}</h3>
-      <img src={image} alt="pokemon" />
+      <Link to={`/pokemons/${id}`}>
+        <img src={image} alt="pokemon" />
+      </Link>
     </div>
   );
 }
